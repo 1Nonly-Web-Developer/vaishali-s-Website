@@ -7,12 +7,12 @@ body {
 }
 
 a {
-  color: #d43076;
+  color: #dc501a;
   text-decoration: none;
 }
 
 a:hover {
-  color: #dd5a92;
+  color: #dc501a;
   text-decoration: none;
 }
 
@@ -35,7 +35,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 9999;
-  background: #d43076;
+  background: #dc501a;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -49,7 +49,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #db528c;
+  background: #dc501a;
   color: #fff;
 }
 
@@ -141,7 +141,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #d43076;
+  color: #dc501a;
 }
 
 .navbar .dropdown ul {
@@ -176,7 +176,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #d43076;
+  color: #dc501a;
 }
 
 .navbar .dropdown:hover>ul {
@@ -275,7 +275,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #d43076;
+  color: #dc501a;
 }
 
 .navbar-mobile .getstarted,
@@ -310,7 +310,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #d43076;
+  color: #dc501a;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -353,7 +353,7 @@ h6 {
 
 #hero .btn-get-started:hover {
   padding-top: 10px;
-  color: #d43076;
+  color: #dc501a;
 }
 
 @media (min-width: 1024px) {
@@ -405,7 +405,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #d43076;
+  background: #dc501a;
   bottom: 0;
   left: 0;
 }
@@ -571,14 +571,14 @@ section {
 }
 
 .skills .progress-bar-wrap {
-  background: #fbeaf1;
+  background: #f3ac91c4;
 }
 
 .skills .progress-bar {
   width: 100%;
   height: 10px;
   transition: 0.9s;
-  background-color: #dd5a92;
+  background-color: #dc501a;
 }
 
 /*--------------------------------------------------------------
@@ -596,7 +596,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #d43076;
+  border-left: 2px solid #dc501a;
   position: relative;
 }
 
@@ -639,7 +639,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #d43076;
+  border: 2px solid #dc501a;
 }
 
 /*--------------------------------------------------------------
