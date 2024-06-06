@@ -7,12 +7,12 @@ body {
 }
 
 a {
-  color: #dc501a;
+  color: #2b74af;
   text-decoration: none;
 }
 
 a:hover {
-  color: #dc501a;
+  color: #0f7edaa9;
   text-decoration: none;
 }
 
@@ -35,7 +35,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 9999;
-  background: #dc501a;
+  background: #2b74af;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -49,7 +49,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #dc501a;
+  background: #0f7edaa9;
   color: #fff;
 }
 
@@ -66,8 +66,8 @@ h6 {
   z-index: 997;
   transition: all 0.5s;
   height: 60px;
-  background: #fff;
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.12);
+  background: #0000006e;
+  /* box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.12); */
 }
 
 #header .logo h1 {
@@ -75,15 +75,15 @@ h6 {
   margin: 0;
   padding: 6px 0;
   line-height: 1;
-  font-weight: 500;
+  /* font-weight: 500; */
   letter-spacing: 3px;
   text-transform: uppercase;
 }
 
-#header .logo h1 a,
-#header .logo h1 a:hover {
-  color: #2c4964;
+#header .logo h1 a, #header .logo h1 a:hover {
+  color: #000;
   text-decoration: none;
+  font-weight: 700;
 }
 
 #header .logo img {
@@ -118,16 +118,15 @@ h6 {
   position: relative;
 }
 
-.navbar a,
-.navbar a:focus {
+.navbar a, .navbar a:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-size: 14px;
-  color: #2c4964;
+  font-size: 16px;
+  color: #000;
   white-space: nowrap;
-  transition: 0.3s;
+  transition: all 0.3s ease; 
 }
 
 .navbar a i,
@@ -141,7 +140,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #dc501a;
+  color: #2b74af;
 }
 
 .navbar .dropdown ul {
@@ -176,7 +175,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #dc501a;
+  color: #2b74af;
 }
 
 .navbar .dropdown:hover>ul {
@@ -275,7 +274,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #dc501a;
+  color: #2b74af;
 }
 
 .navbar-mobile .getstarted,
@@ -310,7 +309,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #dc501a;
+  color: #2b74af;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -353,7 +352,7 @@ h6 {
 
 #hero .btn-get-started:hover {
   padding-top: 10px;
-  color: #dc501a;
+  color: #2b74af;
 }
 
 @media (min-width: 1024px) {
@@ -405,7 +404,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #dc501a;
+  background: #2b74af;
   bottom: 0;
   left: 0;
 }
@@ -525,9 +524,10 @@ section {
 }
 
 .about .image {
-  background: url("Tannu_Pic.png") center center no-repeat;
+  background: url("Tannu-About_Us.png") center center no-repeat;
   background-size: cover;
   min-height: 400px;
+  border-radius: 8px;
 }
 
 @media (max-width: 991px) {
@@ -571,14 +571,14 @@ section {
 }
 
 .skills .progress-bar-wrap {
-  background: #f3ac91c4;
+  background: #9eceefa1;
 }
 
 .skills .progress-bar {
   width: 100%;
   height: 10px;
   transition: 0.9s;
-  background-color: #dc501a;
+  background-color: #2b74af;
 }
 
 /*--------------------------------------------------------------
@@ -596,7 +596,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #dc501a;
+  border-left: 2px solid #2b74af;
   position: relative;
 }
 
@@ -639,7 +639,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #dc501a;
+  border: 2px solid #2b74af;
 }
 
 /*--------------------------------------------------------------
@@ -648,9 +648,9 @@ section {
 #footer {
   background: #fff;
   padding: 24px 0;
-  font-size: 14px;
-  box-shadow: 0px 0 20px 0 rgba(0, 0, 0, 0.12);
-} 
+  font-size: 20px;
+  box-shadow: 0px 0 20px 0 rgb(53 53 53 / 68%);
+}
 
 #footer .copyright {
   text-align: center;
@@ -659,5 +659,5 @@ section {
 #footer .credits {
   padding-top: 8px;
   text-align: center;
-  font-size: 13px;
+  font-size: 20px;
 }
